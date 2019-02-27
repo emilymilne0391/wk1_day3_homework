@@ -124,7 +124,7 @@ users = {
   # Get the array of Erik's lottery numbers
   p users["Erik"][:lottery_numbers]
   # Get the type of Avril's pet Monty
-  # p users.fetch("Avril", :pets)[:species]
+  p users.dig("Avril", :pets)[0][:species]
 # Get the smallest of Erik's lottery numbers
 # Return an array of Avril's lottery numbers that are even
 # Erik is one lottery number short! Add the number 7 to be included in his lottery numbers
@@ -153,7 +153,6 @@ users = {
 #   }
 # ]
 # Change the capital of Wales from "Swansea" to "Cardiff".
-
 # Create a Hash for Northern Ireland and add it to the united_kingdom array (The capital is Belfast, and the population is 1,811,000).
 # Use a loop to print the names of all the countries in the UK.
 # Use a loop to find the total population of the UK.
