@@ -25,10 +25,15 @@
 # p stops
 
 # Delete "Cumbernauld" from the array by index
-stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Haymarket" ]
-stops.delete_at(1)
-p stops
+# stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Haymarket" ]
+# stops.delete_at(1)
+# p stops
+
 # How many stops there are in the array?
+stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Haymarket" ]
+stops.count
+p stops.count
+
 # How many ways can we return "Falkirk High" from the array?
 # Reverse the positions of the stops in the array
 # Print out all the stops using a for loop
