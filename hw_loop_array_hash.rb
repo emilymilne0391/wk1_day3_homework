@@ -30,10 +30,15 @@
 # p stops
 
 # How many stops there are in the array?
-stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Haymarket" ]
-stops.count
-p stops.count
+# stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Haymarket" ]
+# stops.count
+# p stops.count
 
 # How many ways can we return "Falkirk High" from the array?
+
+
 # Reverse the positions of the stops in the array
+stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Haymarket" ]
+stops.reverse
+p stops.reverse
 # Print out all the stops using a for loop
